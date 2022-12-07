@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:padding="3dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:id="@+id/investor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/investor_call"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:width="110dp"
+                android:height="40dp"
+                android:drawableLeft="@drawable/call_"
+                android:text="CALL"
+                android:textSize="11sp"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded,SmallSp" />
+
+            <Button
+                android:id="@+id/investor_email"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:width="110dp"
+                android:height="40dp"
+                android:drawableLeft="@drawable/email__"
+                android:text="EMAIL"
+                android:textSize="11sp"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded,SmallSp" />
+
+            <Button
+                android:id="@+id/investor"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:width="110dp"
+                android:height="40dp"
+                android:drawableLeft="@drawable/invest_"
+                android:text="INVEST"
+                android:textSize="11sp"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded,SmallSp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

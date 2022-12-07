@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".financial_guide.guaranteed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UseCompoundDrawables,UselessLeaf,UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Generally, Mutual Funds do not offer guaranteed returns to investors. Although, SEBI regulations allow Mutual Funds to offer guaranteed returns subject to the Fund meeting certain conditions, most Funds do not offer such guarantees. In case of a guaranteed return scheme, the sponsor or the AMC, guarantees a minimum level of return and makes good the difference if the actual returns are less than the guaranteed minimum. The name of the guarantor and the manner in which the guarantee shall be met must be disclosed in the offer document by the Mutual Fund. Investments in Mutual Funds are not guaranteed by the Government of India, the Reserve Bank of India or any other government body."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

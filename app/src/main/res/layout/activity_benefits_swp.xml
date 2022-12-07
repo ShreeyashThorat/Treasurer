@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".financial_guide.benefits_swp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UseCompoundDrawables,UselessLeaf,UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="An SWP helps you meet your liquidity needs. It is, therefore, usually used by retired investors."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="An SWP comes handy when you are unsure about the correct time to exit investments. You thus get your money irrespective of market conditions. So, when the market is up, you sell less number of units for the fixed amount, and when the market is down, you sell more units."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Another key advantage of an SWP is it spreads your tax liabilities across time too. You will have to pay capital gains tax over a period of years, instead of paying it in lump sum in one year. In the meanwhile, you may also enjoy further appreciation in the value of your mutual funds."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

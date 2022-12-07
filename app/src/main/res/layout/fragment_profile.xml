@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/account_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/profile_image"
+            android:gravity="center"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="InefficientWeight">
+
+            <TextView
+                android:id="@+id/account_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/account_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Account details"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/account_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/arrows"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        tools:ignore="DisableBaselineAlignment,UselessParent">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="20dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/change_pass"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/background_two"
+            android:text="Change password"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        tools:ignore="DisableBaselineAlignment,UselessParent">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="20dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logout"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/background_two"
+            android:text="Logout"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</LinearLayout>

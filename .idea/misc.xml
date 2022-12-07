@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/account_details_bg.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/background.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/background_1.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/background_one.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/background_two.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/button.xml" value="0.1115" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/button_bg.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/button_bg_one.xml" value="0.119" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/button_bg_two.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/buttone_bg_one.xml" value="0.119" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/click_view.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/etbg.xml" value="0.119" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/icon_bg.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/login_bg.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/logo_name.xml" value="0.1115" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/otp_bg.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/pd_bg.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/profile_data_btn_bg.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/profile_image.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/drawable/splash_bg.xml" value="0.112" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/action__bar.xml" value="0.13632246376811594" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/action_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_account_details.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_add_bank_account.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_advantage_mf.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_bank_details.xml" value="0.18" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_benefits_sip.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_benefits_swp.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_change_email.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_change_password.xml" value="0.25" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_cost_of_delay_calculator.xml" value="0.13632246376811594" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_delivery_equity.xml" value="0.25" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_edu_calculator.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_emi_calculator.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_expense_cal.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_future_charges.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_get_otp.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_guaranteed.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_intraday_charges.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_investment_route.xml" value="0.15081521739130435" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_lumpsum_calculator.xml" value="0.13632246376811594" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_marriage_calculator.xml" value="0.25" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_mf_work.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_options_charges.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_personal_details.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_retirement_calculator.xml" value="0.25" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_risks.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_simple_cal.xml" value="0.22" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_sip_calculator.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_types_mf.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_verify_otp.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_what_is_mf.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_what_is_sip.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_what_is_stp.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_what_is_swp.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/activity_zerodha.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/app_bar_dashboard.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/brokerage.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/brokerage_details.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/charges.xml" value="0.25" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/content_dashboard.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/custom_action_bar.xml" value="0.22" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/dropdown.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment__account_details.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment_about__us_.xml" value="0.22" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment_account.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment_gallery.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment_portfolio.xml" value="0.13632246376811594" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment_s_i_p_tools.xml" value="0.22" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/fragment_slideshow.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/investment_route_dsn.xml" value="0.18" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/logout.xml" value="0.15670289855072464" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/nav_header_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/personal_details_btn.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/reset_password.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/stock_calculator.xml" value="0.1" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/layout/transaction_row_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/menu/dashboard.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Shree/AndroidStudioProjects/Treasurer/app/src/main/res/menu/my_menu.xml" value="0.19895833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

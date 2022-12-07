@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Retirement_calculator">
+
+    <androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        tools:ignore="UselessLeaf">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/expected_monthly_expense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="Expected Monthly Expenses When you Retire at 0 years would be"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/expected_monthly_expense1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:hint="₹0/-"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/estimated_amt_required"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="&amp; Estimated amount required as Retirement"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/estimated_amt_required1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:hint="₹0/-"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/total_saving_will_be"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="Total saving at the time of retirement will be"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/total_saving_will_be1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="₹0"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/shortfall_saving"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:hint="Shortfall in savings ₹0"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/to_achieve_goal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="To achieve this goal, you need to do"
+                    android:textColor="@color/black"
+                    tools:ignore="HardcodedText" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="SIP"
+                            android:textColor="@color/black"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/achieve_goal_with_sip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/green"
+                            android:hint="₹0"
+                            android:textColorHint="@color/green"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        tools:ignore="InefficientWeight" />
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Lumpsum"
+                            android:textColor="@color/black"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/achieve_goal_with_lumpsum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:hint="₹0"
+                            android:textColorHint="@color/Coral"
+                            android:textColor="@color/Coral"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText,TextContrastCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current Age (Years)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/current_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:hint="25"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_one"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Retirement Age (Year)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/retirement_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:hint="60"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_one"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current Monthly Expenses (₹)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/current_monthly_expenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:hint="30,000"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_one"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expected Inflation (%)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/expected_inflation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:hint="0"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_one"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current Saving Per Month (₹)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/current_saving_per_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:hint="1000"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_one"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Existing Corpus (₹)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/existing_corpus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:hint="1,00,000"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_one"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expected Pre-Retirement Returns (%)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/pre_retirement_returns"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:hint="10"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_one"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expected Post_Retirement Returns (%)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/post_retirement_returns"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:hint="7"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_one"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Life Expectancy (Years)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/life_expectancy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:hint="80"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/growth_meter"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="200dp"
+            android:text="Disclaimer: This tool does not make any guarantees or warranties whatever, expressed or implied, regarding the completeness, accuracy, adequacy,fullness, reliability, functionality and/or the reliability of the information"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,SmallSp" />
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

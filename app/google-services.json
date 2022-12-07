@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982290545836",
+    "project_id": "treasurer-e0603",
+    "storage_bucket": "treasurer-e0603.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982290545836:android:2ff4b99eab5dafcb29f309",
+        "android_client_info": {
+          "package_name": "com.shree.treasurer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982290545836-i3586ijmcj53ljsqud232n3cg97jr47e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAILtVVH6AI8jX60vT6J4rVyRszlhm3Sfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982290545836-i3586ijmcj53ljsqud232n3cg97jr47e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

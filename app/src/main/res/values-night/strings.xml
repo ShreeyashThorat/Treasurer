@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="what_is_mutual_fund">What is Mutual Fund?</string>
+    <string name="how_do_mutual_funds_work">How do mutual funds work?</string>
+    <string name="types_of_mutual_fund">Types of Mutual Fund</string>
+    <string name="advantage_of_mutual_fund">Advantage of Mutual Fund</string>
+    <string name="what_is_a_sip">What is a Systematic Investment Plan(SIP)?</string>
+    <string name="what_are_the_benefits_of_sips">What are the benefits of SIPs?</string>
+    <string name="what_is_swp">What is a Systematic Withdrawal Plan(SWP)?</string>
+    <string name="what_are_the_benefits_of_swp">What are the benefits of SWP?</string>
+    <string name="what_is_a_stp">What is a Systematic Transfer Plan(STP)?</string>
+    <string name="what_are_the_types_of_risks">What are the types of risks?</string>
+    <string name="are_returns_from_mutual_funds_guaranteed">Are returns from Mutual Funds guaranteed?</string>
+    <string name="what_is_mf">A mutual fund is an investment vehicle made up of a pool of moneys collected from many investors for the purpose of investing in securities such as stocks, bonds, money market instruments and other assets. Mutual funds are operated by professional money managers, who allocate the fund\'s investments and attempt to produce capital gains and/or income for the fund\'s investors. These investors may be retail or institutional in nature.</string>
+    <string name="what_is_mf1">Quite simply, a mutual fund is a mediator that brings together a group of people and invests their money in stocks, bonds and other securities.</string>
+    <string name="what_is_mf2">Each investor owns shares, which represent a portion of the holdings of the fund. Thus, a mutual fund is one of the most viable investment options for the common man as it offers an opportunity to invest in a diversified, professionally managed basket of securities at a relatively low cost.</string>
+    <string name="mf_works1">Mutual funds pool your money with the money of other investors and invest it in a portfolio of other assets (e.g. stocks, bonds).</string>
+    <string name="mf_works2">By investing alongside other investors, you’ll be able to invest in portfolios that you wouldn’t be able to afford alone.</string>
+    <string name="mf_works3">Mutual funds are typically managed by a fund manager who picks all the investments in the portfolio. This is often a big selling point for beginner investors who don’t have much experience and would rather place their faith in an “expert” in the mutual fund world.</string>
+    <string name="mf_works4">Because these fund managers actively manage your money, you’ll sometimes hear mutual funds referred to as “actively managed funds.” They’ll also charge a variety of fees for their work.</string>
+    <string name="mf_works5">And if you want to invest in a mutual fund, the mutual fund manager is important. You’re essentially investing in them by putting your money in their fund. They have a lot of incentive to do a good job for you as their jobs literally depend on how well the funds perform. They also receive bonuses in the millions if they do a good job.</string>
+    <string name="mg_works6">The fund manager is hired by a board of directors and is legally obligated to work in the best interest of mutual fund shareholders. Most fund managers are also owners of the fund, though some are not.</string>
+    <string name="mf_works7">There are very few other employees in a mutual fund company. The investment advisor or fund manager may employ some analysts to help pick investments or perform market research. A fund accountant is kept on staff to calculate the fund\'s net asset value (NAV), or the daily value of the mutual fund that determines if share prices go up or down. Mutual funds need to have a compliance officer or two, and probably an attorney, to keep up with government regulations.</string>
+    <string name="types_mf1">There are hundreds of mutual fund schemes to choose from. Hence, they have been categorized by structure, nature and investment objective.</string>
+    <string name="types_mf2">Types of mutual funds by structure:</string>
+    <string name="types_mf3">1. Closed–Ended: A close ended fund or scheme has a predetermined maturity period (eg. 5–7 years). The fund is open for subscription during the launch of the scheme for a specified period of time. Investors can invest in the scheme at the time of the initial public issue and thereafter they can buy or sell the units on the stock exchanges where they are listed. In order to provide an exit route to the investors, some close ended funds give an option of selling back the units to the mutual fund through periodic repurchase at NAV related prices or they are listed in secondary market.</string>
+    <string name="types_mf4">2. Open-Ended Funds: The most common type of mutual fund available for investment is an open-ended mutual fund. Investors can choose to invest or transact in these schemes as per their convenience. In an open-ended mutual fund, there is no limit to the number of investors, shares, or overall size of the fund, unless the fund manager decides to close the fund to new investors in order to keep it manageable. The value or share price of an open-ended mutual fund is determined at the market close every day and is called the Net Asset Value (NAV). Most mutual funds are open-end funds.</string>
+    <string name="contact_no">+91 8482905113</string>
+    <string name="invest_online">Invest Online</string>
+    <string name="simple_calculator">SIMPLE CALCULATOR</string>
+</resources>

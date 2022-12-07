@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".financial_guide.types_mf">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UseCompoundDrawables,UselessLeaf,UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/types_mf1"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/types_mf2"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/types_mf3"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/types_mf4"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Interval funds: Interval schemes combine the features of open-ended and close-ended schemes. The units may be traded on the stock exchange or may be open for sale or redemption during pre-determined intervals at NAV related prices. FMPs or Fixed maturity plans are examples of these types of schemes."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Periodic repurchase offers come at preset intervals of three, six or 12 months, as outlined in the fund’s prospectus and annual report. The repurchase price is based on the per share NAV on a date specified (and announced in advance) by the fund. Fees for interval funds tend to be higher than for other types of mutual funds, as do returns."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="5. Exchange-traded funds: Exchange-traded funds (ETFs) are structured as open-end investment companies or UITs. ETFs combine characteristics of both closed-end funds and open-end funds. ETFs are traded throughout the day on a stock exchange. An arbitrage mechanism is used to keep the trading price close to net asset value of the ETF holdings."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Types of mutual funds by nature:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1. Money market funds: Money market funds invest in money market instruments, which are fixed income securities with a very short time to maturity and high credit quality such as government bonds, treasury bills, bankers’ acceptances, commercial paper and certificates of deposit. Money Market Funds have the lowest returns because they carry the lowest risk. They are generally a safer investment then other types of mutual funds."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2. Bond (Fixed-Income) Funds: Bond funds invest in fixed income or debt securities. Bond Funds are somewhat more risky than money market funds. These funds buy investments that pay a fixed rate of return like government bonds, investment-grade corporate bonds and high-yield corporate bonds. They aim to have money coming into the fund on a regular basis, mostly through interest that the fund earns."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Equity (Stock) funds: These funds invest maximum part of their corpus into equity holdings. Stock (Equity) Funds carry the greatest risk alongside the greatest potential returns. Fluctuations in the market can drastically affect the returns of equity funds."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4. Hybrid funds: Hybrid funds invest in both bonds and stocks or in other securities. Balanced funds, asset allocation funds, target date or target risk funds, and lifecycle or lifestyle funds are all types of hybrid funds. The equity portion provides growth while debt provides stability in returns. This way, investors get to taste the best of both worlds."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Types of mutual fund by investment objective:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1. Growth Schemes: Also known as equity schemes, these schemes aim at providing capital appreciation over medium to long term. These schemes normally invest a major portion of their fund in equities and are willing to withstand short-term decline in value for possible future appreciation."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2. Income Schemes:Also known as debt schemes, they generally invest in fixed income securities such as bonds and corporate debentures. These schemes aim at providing regular and steady income to investors. However, capital appreciation in such schemes may be limited."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Index Funds: These schemes attempt to reproduce the performance of a particular index such as the BSE Sensex or the NSE 50. Their portfolios will consist of only those stocks that constitute the index. The percentage of each stock to the total holding will be identical to the stocks index weight age. And hence, the returns from such schemes would be more or less equivalent to those of the Index."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

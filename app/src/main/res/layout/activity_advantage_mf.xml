@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".financial_guide.advantage_mf">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            tools:ignore="ScrollViewSize,UseCompoundDrawables,UselessLeaf,UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="1. Professional Investment Management : Mutual funds hire full-time, high-level investment professionals. Funds can afford to do so as they manage large pools of money. The managers have real-time access to crucial market information and are able to execute trades on the largest and most cost-effective scale."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2. Liquidity : In open-ended schemes, you can get your money back at any point in time at the prevailing NAV (Net Asset Value) from the Mutual Fund itself. This makes mutual fund investments highly liquid. Compare that with a fixed deposit or a bond which may have a fixed investment duration."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Variety : While investing in mutual funds, you are spoilt for choice. You have a number of mutual fund schemes to choose from, which may invest in a whole range of industries and sectors, different kinds of assets, and so on. You can find a mutual fund that matches just about any investment strategy you select."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="There are funds that focus on blue-chip stocks, technology stocks, bonds, or a mix of stocks and bonds. In fact, the greatest challenge can be sorting through the variety and picking the best for you."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4. Transparency : SEBI regulations for mutual funds have made the industry very transparent. You can track the investments that have been made on your behalf to know the sectors and stocks being invested in. In addition to this, you get regular information on the value of your investment. Mutual funds are mandated to publish the details of their portfolio regularly."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="5. Diversification : Mutual funds invest in a broad range of securities. This limits investment risk by reducing the effect of a possible decline in the value of any one security. Mutual fund unit-holders can benefit from diversification techniques usually available only to investors wealthy enough to buy significant positions in a wide variety of securities."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="6. Low Cost : A mutual fund let's you participate in a diversified portfolio for as little as Rs.5,000/-, and sometimes less. And with a no-load fund, you pay little or no sales charges to own them."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="7. Convenience : You own just one security rather than many, yet enjoy the benefits of a diversified portfolio and a wide range of services. Fund managers decide what securities to trade, collect the interest payments and see that your dividends on portfolio securities are received and your rights exercised. It also uses the services of a high quality custodian and registrar in order to make sure that your convenience remains at the top of our mind."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    tools:context=".Personal_Details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="PAN Number"
+                app:endIconMode="clear_text"
+                app:shapeAppearance="@style/Rounded"
+                tools:ignore="HardcodedText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pan_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="10"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="Date Of Birth"
+                app:endIconMode="clear_text"
+                app:shapeAppearance="@style/Rounded"
+                tools:ignore="HardcodedText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/date_of_birth_pick"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:layout_marginStart="10dp"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText" />
+
+                <RadioGroup
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessLeaf">
+
+                    <RadioButton
+                        android:id="@+id/radio_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="120dp"
+                        android:text="Male"
+                        android:buttonTint="@color/RoyalBlue"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/radio_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="120dp"
+                        android:text="Female"
+                        android:buttonTint="@color/RoyalBlue"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/radio_others"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="120dp"
+                        android:text="Others"
+                        android:buttonTint="@color/RoyalBlue"
+                        tools:ignore="HardcodedText" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your employment type"
+                    android:layout_marginStart="10dp"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText" />
+
+                <RadioGroup
+                    android:id="@+id/employment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessLeaf">
+
+                    <RadioButton
+                        android:id="@+id/radio_salaried"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="115dp"
+                        android:text="Salaried"
+                        android:buttonTint="@color/RoyalBlue"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/radio_self"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="130dp"
+                        android:text="Self-employed"
+                        android:buttonTint="@color/RoyalBlue"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/radio_student"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="115dp"
+                        android:text="Student"
+                        android:buttonTint="@color/RoyalBlue"
+                        tools:ignore="HardcodedText" />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"
+                tools:ignore="HardcodedText"  />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Flat no/ Building / Society "
+                app:endIconMode="clear_text"
+                app:shapeAppearance="@style/Rounded"
+                tools:ignore="HardcodedText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/add_line_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Landmark/ Area"
+                app:endIconMode="clear_text"
+                app:shapeAppearance="@style/Rounded"
+                tools:ignore="HardcodedText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/add_line_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="District/ State"
+                app:endIconMode="clear_text"
+                app:shapeAppearance="@style/Rounded"
+                tools:ignore="HardcodedText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/add_line_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="PIN code"
+                app:endIconMode="clear_text"
+                app:shapeAppearance="@style/Rounded"
+                tools:ignore="HardcodedText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pin_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="Alternate phone number"
+                app:endIconMode="clear_text"
+                app:shapeAppearance="@style/Rounded"
+                tools:ignore="HardcodedText">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/alternate_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+
+                <Button
+                    android:id="@+id/submit_personal_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/profile_data_btn_bg"
+                    android:text="Submit"
+                    tools:ignore="HardcodedText" />
+                <ProgressBar
+                    android:id="@+id/progressbar_personal_data_submit"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:indeterminateTint="@color/RoyalBlue"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

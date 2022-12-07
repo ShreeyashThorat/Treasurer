@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/nav_sip_tools"
+        android:icon="@drawable/sip"
+        android:title="SIP Tools"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/about_us"
+        android:title="About Us"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile2"
+        android:title="Profile"
+        tools:ignore="HardcodedText" />
+
+</menu>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".financial_guide.risks">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UseCompoundDrawables,UselessLeaf,UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Risk is an inherent aspect of every form of investment. For Mutual Fund investments, risks would include variability, or period-by-period fluctuations in total return. The value of the scheme's investments may be affected by factors affecting capital markets such as price and volume volatility in the stock markets, interest rates, currency exchange rates, foreign investment, changes in government policy, political, economic or other developments."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Market risk: At times the prices or yields of all the securities in a particular market rise or fall due to broad outside influences. When this happens, the stock prices of both an outstanding, highly profitable company and a fledgling corporation may be affected. This change in price is due to 'market risk'."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Inflation risk: Sometimes referred to as 'loss of purchasing power'. Whenever the rate of inflation exceeds the earnings on your investment, you run the risk that you'll actually be able to buy less, not more."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Credit risk: In short, how stable is the company or entity to which you lend your money when you invest? How certain are you that it will be able to pay the interest you are promised, or repay your principal when the investment matures?"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Interest rate risk: Changing interest rates affect both equities and bonds in many ways. Bond prices are influenced by movements in the interest rates in the financial system. Generally, when interest rates rise, prices of the securities fall and when interest rates drop, the prices increase. Interest rate movements in the Indian debt markets can be volatile leading to the possibility of large price movements up or down in debt and money market securities and thereby to possibly large movements in the NAV."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Investment risks: In the sectoral fund schemes, investments will be predominantly in equities of select companies in the particular sectors. Accordingly, the NAV of the schemes are linked to the equity performance of such companies and may be more volatile than a more diversified portfolio of equities."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Liquidity risk: Thinly traded securities carry the danger of not being easily saleable at or near their real values. The fund manager may therefore be unable to quickly sell an illiquid bond and this might affect the price of the fund unfavourably. Liquidity risk is characteristic of the Indian fixed income market."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Changes in the government policy: Changes in Government policy especially in regard to the tax benefits may impact the business prospects of the companies leading to an impact on the investments made by the fund."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".financial_guide.what_is_sip">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UseCompoundDrawables,UselessLeaf,UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="A Systematic Investment Plan allows you to invest regularly a fixed sum in your favorite mutual fund scheme. In SIP, a fixed amount is deducted from your savings account every month and directed towards the mutual fund you choose to invest in. It allows you to buy units continuously without worrying about the market ups and downs. Not only does investing in an SIP bring financial discipline but also helps you plan your budget and expenses better."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="The frequency of SIPs can vary; you can do a monthly, weekly or daily SIP. Also, there are various 'types' of SIPs. For instance, a value SIP changes your SIP amount as per the expensiveness of the market. Though this option sounds good, tinkering with the basic idea of SIPs only makes it complex. You are better off sticking to an ordinary SIP, preferably on a monthly basis."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="SIPs have limited use in debt schemes as they are not as volatile or risky as equity schemes."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

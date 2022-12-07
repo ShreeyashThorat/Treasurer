@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cost_of_delay_calculator">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:paddingRight="15dp"
+            tools:ignore="ScrollViewSize,UselessLeaf">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/maturity_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="If you start SIP from today then your Maturity value would be"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/maturity_value1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:hint="₹0"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="Invested Amount "
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/amount_invested"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:hint="₹0"
+                                android:textColor="@color/green"
+                                android:textColorHint="@color/green"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="1dp"
+                            android:layout_height="40dp"
+                            android:background="@color/black"
+                            tools:ignore="InefficientWeight" />
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="Wealth Gained"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/gained_amount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:hint="₹0"
+                                android:textColor="@color/Coral"
+                                android:textColorHint="@color/Coral"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText,TextContrastCheck" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/delay_maturity_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:hint="If you start SIP with delay of 0 months then your Maturity value would be"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/delay_maturity_value1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:hint="₹0"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="Invested Amount "
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/invested_amount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:hint="₹0"
+                                android:textColor="@color/green"
+                                android:textColorHint="@color/green"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view1"
+                            android:layout_width="1dp"
+                            android:layout_height="40dp"
+                            android:background="@color/black"
+                            tools:ignore="InefficientWeight" />
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="Wealth Gained"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/gained_amt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:hint="₹0"
+                                android:textColor="@color/Coral"
+                                android:textColorHint="@color/Coral"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText,TextContrastCheck" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Monthly Investment (₹)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/monthly_invest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="1,000"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_one"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Investment Period (Year)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/investment_period"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="10"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_one"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Expected Annual Returns (%)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/annual_returns"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="10"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Delay from Today (Months)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/delay_from_today"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="5"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="Note: Calculation is based on Monthly Compounding."
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Disclaimer: This tool does not make any guarantees or warranties whatever, expressed or implied, regarding the completeness, accuracy, adequacy,fullness, reliability, functionality and/or the reliability of the information"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText,SmallSp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

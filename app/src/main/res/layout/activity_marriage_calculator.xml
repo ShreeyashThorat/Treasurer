@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".marriage_calculator">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:paddingRight="15dp"
+            tools:ignore="ScrollViewSize,UselessLeaf">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:hint="Amount Required at the time of Marriage"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/amount_required"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:hint="₹0"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/achieve_goal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="To achieve this Goal you must invest"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="One Time "
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/one_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:hint="₹0"
+                                android:textColor="@color/green"
+                                android:textColorHint="@color/green"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="1dp"
+                            android:layout_height="40dp"
+                            android:background="@color/black"
+                            tools:ignore="InefficientWeight" />
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="Monthly"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/monthly"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:hint="₹0"
+                                android:textColor="@color/Coral"
+                                android:textColorHint="@color/Coral"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText,TextContrastCheck" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Child age"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/child_age"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="1"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_one"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Child will get married at the age (Years)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/wedding_age"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="25"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_one"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Amount Required as on today's cost (₹)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/amount_required_as_today"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="5,00,000"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_one"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Expected rate of returns (%)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/expected_rateof_return"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="12.00"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_one"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Expected inflation rate (%)"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/expected_inflation_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="6.00"
+                        android:importantForAutofill="no"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/growth_meter"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Disclaimer: This tool does not make any guarantees or warranties whatever, expressed or implied, regarding the completeness, accuracy, adequacy,fullness, reliability, functionality and/or the reliability of the information"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText,SmallSp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

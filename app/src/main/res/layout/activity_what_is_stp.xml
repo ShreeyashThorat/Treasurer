@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".financial_guide.what_is_stp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UseCompoundDrawables,UselessLeaf,UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="With an STP, you choose a particular amount to be transferred from one mutual fund scheme to another of your choice. You can go for a weekly, monthly or a quarterly transfer plan, depending on your needs."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Generally, one starts with an STP when there is a lump sum to invest. An STP helps spread investments over a period of time to average the purchase cost and rule out the risk of getting into the market at its peak. With an STP, an investor can invest a lump sum in one scheme (mostly a debt scheme) and transfer a fixed amount regularly to another scheme (mostly an equity scheme)."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="The basic idea behind an STP is to earn a little extra on the lump sum while it is being deployed in equity. Debt funds excel over the normal savings bank account."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Depending on the lump-sum amount, the investor can decide the period over which he wants to deploy the money in the market. Typically, the larger the amount, the longer the time period."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="An STP can be done from an equity fund to a debt fund as well."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="If you have been investing in equities using diversified equity funds, and now keen to do some tax-saving investments. You can initiate an STP from the diversified fund to an ELSS of the same fund house. This ensures that you are saved on the transactions front. Instead of selling units of equity mutual fund first and then waiting for the proceeds before investing again, STP makes a smooth transfer of money from one fund to another."
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

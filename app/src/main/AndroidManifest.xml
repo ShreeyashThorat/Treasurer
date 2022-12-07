@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shree.treasurer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Treasurer"
+        tools:targetApi="31">
+        <activity
+            android:name=".simple_cal"
+            android:exported="false" />
+        <activity
+            android:name=".Investment_route"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.guaranteed"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.risks"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.what_is_stp"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.benefits_swp"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.what_is_swp"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.benefits_sip"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.what_is_sip"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.advantage_mf"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.types_mf"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.mf_work"
+            android:exported="false" />
+        <activity
+            android:name=".financial_guide.What_is_mf"
+            android:exported="false" />
+        <activity
+            android:name=".Expense_cal"
+            android:exported="false" />
+        <activity
+            android:name=".Options_Charges"
+            android:exported="false" />
+        <activity
+            android:name=".Future_Charges"
+            android:exported="false" />
+        <activity
+            android:name=".Intraday_charges"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_Equity"
+            android:exported="false" />
+        <activity
+            android:name=".Edu_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Verify_otp"
+            android:exported="false" />
+        <activity
+            android:name=".Emi_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Personal_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Account_details"
+            android:exported="false" />
+        <activity
+            android:name=".Retirement_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".marriage_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Cost_of_delay_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".sip_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".lumpsum_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
